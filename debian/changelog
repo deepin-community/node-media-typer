@@ -1,0 +1,66 @@
+node-media-typer (1.1.0-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Submit.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+  * Apply multi-arch hints. + node-media-typer: Add Multi-Arch: foreign.
+  * Update standards version to 4.5.0, no changes needed.
+
+  [ Yadd ]
+  * Bump debhelper compatibility level to 13
+  * Modernize debian/watch
+    * Fix GitHub tags regex
+    * Fix filenamemangle
+  * Use dh-sequence-nodejs
+  * Update standards version to 4.6.0, no changes needed.
+  * Drop dependency to nodejs
+  * Mark test dependencies with <!nocheck>
+
+ -- Yadd <yadd@debian.org>  Tue, 16 Nov 2021 09:57:29 +0100
+
+node-media-typer (1.1.0-1) unstable; urgency=medium
+
+  * Declare compliance with policy 4.4.1
+  * Add "Rules-Requires-Root: no"
+  * New upstream version 1.1.0
+  * Update debian/copyright
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 09 Nov 2019 08:52:56 +0100
+
+node-media-typer (0.3.0-3) unstable; urgency=medium
+
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.0
+  * Add debian/gbp.conf
+  * Switch install to pkg-js-tools
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 03 Aug 2019 15:43:22 +0200
+
+node-media-typer (0.3.0-2) unstable; urgency=medium
+
+  * Replace Andrew Kelley by myself in uploaders list. Thanks for your work!
+    (Closes: #909891)
+  * Bump debhelper compatibility level to 11
+  * Declare compliance with policy 4.3.0
+  * Change section to javascript
+  * Change priority to optional
+  * Fix VCS fields
+  * Update d/copyright
+  * Add upstream/metadata
+  * Switch test to pkg-js-tools (Closes: #894944)
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 20 Feb 2019 21:05:18 +0100
+
+node-media-typer (0.3.0-1) unstable; urgency=low
+
+  * New upstream release
+  * Standards-Version 3.9.6
+
+ -- Andrew Kelley <superjoe30@gmail.com>  Sat, 11 Oct 2014 21:47:09 +0200
+
+node-media-typer (0.2.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #753017)
+
+ -- Andrew Kelley <superjoe30@gmail.com>  Sat, 05 Jul 2014 12:40:04 +0200

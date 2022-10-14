@@ -1,0 +1,25 @@
+Source: node-media-typer
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Yadd <yadd@debian.org>
+Section: javascript
+Testsuite: autopkgtest-pkg-nodejs
+Priority: optional
+Build-Depends: debhelper-compat (= 13),
+               dh-sequence-nodejs,
+               mocha <!nocheck>,
+               node-should <!nocheck>
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-media-typer
+Vcs-Git: https://salsa.debian.org/js-team/node-media-typer.git
+Homepage: https://github.com/expressjs/media-typer
+Rules-Requires-Root: no
+
+Package: node-media-typer
+Architecture: all
+Depends: ${misc:Depends},
+Multi-Arch: foreign
+Description: RFC 6838 media type parser and formatter - Node.js module
+ This module parses a media type string as typically found in HTTP
+ Content-Type header.
+ .
+ Node.js is an event-based server-side JavaScript engine.
